@@ -83,10 +83,7 @@ storage.set(filePath, data)
 ### isPathExists
 check if a file or directory exists.
 
-```js
-// you have to write .json suffix for json files.
-// this method works on directories as well, if you don't write `.json` suffix it checks for a directory.
-```
+_You have to write `.json` suffix for json files. If you don't write `.json` suffix it checks for a directory._
 
 #### storage.isPathExists(path, cb)
 ```js
